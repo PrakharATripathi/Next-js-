@@ -50,14 +50,15 @@ import {
               If you did not request this code, please ignore this email.
             </Text>
           </Row>
-          {/* <Row>
+          <Row>
             <Button
-              href={`http://localhost:3000/verify/${username}`}
+              href={`http://localhost:3000/sign-in`}
+              // href={`http://localhost:3000/verify/${username}`}
               style={{ color: '#61dafb' }}
             >
               Verify here
             </Button>
-          </Row> */}
+          </Row>
         </Section>
       </Html>
     );
