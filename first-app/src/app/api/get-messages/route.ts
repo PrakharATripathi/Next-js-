@@ -1,4 +1,4 @@
-// 8 number video  31.33 
+
 import { getServerSession } from "next-auth";
 import { authOptions } from "../auth/[...nextauth]/options";
 import dbConnect from "../../../../lib/db.connect";
